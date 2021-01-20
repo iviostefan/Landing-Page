@@ -1,23 +1,56 @@
 /* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-    vertical-align: baseline;
-    margin-bottom: 8px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+	padding-top: 50px;
+	text-align: center;
+	height: 200px;
+	background-color:  rgb(193, 199, 204);
+	color:  rgb(36, 134, 180);
+  }
+
+#header h1 {
+	text-align: center;
+	font-size: 48px;
+	font-weight: 800;
+  }
+
+#nav-bar {
+	padding: 8px;
+	position: fixed;
+	overflow: hidden; 
+	width: 100%;
+	margin:0px;
+	height: 45px;
+	top: 0;
+	left: 0;
+	background-color: rgb(133, 143, 151);
+}
+
+#nav-bar a {
+	float: right;
+	display: block;
+	color:#fff;
+	text-align: center;
+	padding: 1px 25px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+@media (max-width: 360px) {
+	#nav-bar a {
+		font-size: 16px;
+		padding: 5px 15px;
+	}
+	
+  }
+
