@@ -53,6 +53,7 @@ html, body {
 
 .game-image img {
 	width: 60%;
+	box-shadow: 8px 8px 8px 0 rgba(8, 2, 0, 0.4), 8px 6px 20px 0 rgba(8, 0, 2, 0.4);
   } 
 
   #about {
@@ -70,7 +71,7 @@ html, body {
   
   .game-image {
 	background-color: #f1f1f1;
-	padding: 50px 5px;
+	padding: 30px 5px;
 	flex: 50%;
   }
 
