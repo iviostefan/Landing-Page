@@ -13,15 +13,45 @@
     <header id="header">
         <h1>Secam</h1>
         <nav id="nav-bar">
+            <img id="header-img" src="https://i.ibb.co/RBd8Qbp/IMG-20200913-WA0013.jpg" alt="iviostefan">
             <a href="#download" class="nav-link">Download</a>
-            <a href="#play" class="nav-link">Hoy to play</a>
+            <a href="#play" class="nav-link">How to play</a>
             <a href="#about" class="nav-link">About</a>
         </nav>
     </header>
     <main>
-        <section id="about"></section>
-        <section id="play"></section>
-        <section id="download"></section>
+        <section id="about">
+            <div class="description">
+                <p>Fill in the table below, so that only one digit from 1 to 6 appears on each row and each column.</p>
+                <p>The small numbers written in the corners of the delimited sections indicate the sum of the digits
+                    that are part of it.</p>
+                <p>Note: the numbers can be repeated in the card of a section, if they are entered on different rows or
+                    columns.</p>
+            </div>
+            <div class="game-image">
+                <img src="https://i.ibb.co/4MJ40ZP/g0.png">
+            </div>
+        </section>
+
+        <section id="play">
+            <!-- here iframe video-->
+            <div id="video">
+            </div>
+
+
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Your Email:
+                    <input type="email" id="email" name="email" placeholder="your_email@example.com" required
+                        pattern=".+@.+">
+                </label>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </section>
+        <section id="download">
+            <div id="game"></div>
+            <p><a href="https://iviostefan.github.io/Secam/" target="_blank">Try FullScreen</a></p>
+            <p><a href="https://github.com/iviostefan/Secam" target="_blank">Source Code</a></p>
+        </section>
     </main>
 </body>
 
