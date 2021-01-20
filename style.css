@@ -1,12 +1,10 @@
-/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
-
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #header {
@@ -51,6 +49,35 @@ html, body {
 		font-size: 16px;
 		padding: 5px 10px;
 	}
-	
   }
+
+.game-image img {
+	width: 60%;
+  } 
+
+  #about {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 30px;
+	text-align: center;
+  }
+  
+  .description {
+	background-color: #f1f1f1;
+	padding: 50px;
+	flex: 50%;
+  }
+  
+  .game-image {
+	background-color: #f1f1f1;
+	padding: 50px 5px;
+	flex: 50%;
+  }
+
+  @media (max-width: 800px) {
+	.description, .game-image {
+	  flex: 100%;
+	}
+  }
+
 
