@@ -133,7 +133,7 @@ section {
 	padding-top: 5px;
 }
 
-#video {
+.youtube {
 	padding: 20px 20px;
 	margin: 10px auto;
 	height: 315px;
@@ -141,7 +141,7 @@ section {
 }
 
 @media (max-width: 540px) {
-	#video {
+	.youtube {
 		height: 315px;
 		width: 100%;
 	}
