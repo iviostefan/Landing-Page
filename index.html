@@ -4,7 +4,7 @@
 <head>
     <title>Landing Page</title>
     <meta charset="utf-8">
-    <meta name="author" content="Viorel">
+    <meta name="author" content="Viorel Stefan">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
 </head>
@@ -13,12 +13,13 @@
     <header id="header">
         <h1>Secam</h1>
         <nav id="nav-bar">
-            <img id="header-img" src="https://i.ibb.co/4MJ40ZP/g0.png" alt="iviostefan">
+            <img id="header-img" src="https://i.ibb.co/4MJ40ZP/g0.png" alt="vis">
             <a href="#download" class="nav-link">Download</a>
             <a href="#play" class="nav-link">How to play</a>
             <a href="#about" class="nav-link">About</a>
         </nav>
     </header>
+
     <main>
         <section id="about">
             <div class="description">
@@ -29,27 +30,46 @@
                     columns.</p>
             </div>
             <div class="game-image">
-                <img src="https://i.ibb.co/4MJ40ZP/g0.png">
+                <img src="https://i.ibb.co/4MJ40ZP/g0.png" alt="game">
             </div>
         </section>
 
         <section id="play">
-            <!-- here iframe video-->
             <div id="video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iHU20izigVg" frameborder="0"
+                    allow="clipboard-write; encrypted-media;" allowfullscreen></iframe>
             </div>
+        </section>
+
+        <section id="download">
 
 
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
+         
+        
+          
+                <div class="buttons">
+                    <p class="code"><a href="https://iviostefan.github.io/Secam/" target="_blank">Try FullScreen</a></p>
+                    <p class="code"><a href="https://github.com/iviostefan/Secam" target="_blank">Source Code</a></p>
+                </div>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <input type="email" id="email" name="email" placeholder="your_email@example.com" required
                         pattern=".+@.+">
-                <input type="submit" value="Submit" id="submit">
-            </form>
-        </section>
-        <section id="download">
-            <p><a href="https://iviostefan.github.io/Secam/" target="_blank">Try FullScreen</a></p>
-            <p><a href="https://github.com/iviostefan/Secam" target="_blank">Source Code</a></p>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+               
+            </div>
+            
+
         </section>
     </main>
+
+    <footer>
+        <div class="wrapper">
+            <small>Original game by: <a href="https://raetsel-krueger.de/" target="_blank">Ratsel-Kruger
+                    Gmbh</a></small>
+        </div>
+    </footer>
+
 </body>
 
 </html>
